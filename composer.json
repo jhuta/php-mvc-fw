@@ -1,0 +1,18 @@
+{
+  "name": "jhuta/php-mvc-framework",
+  "authors": [
+    {
+      "name": "JACKo",
+      "email": "jacek.huta@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "."
+    }
+  },
+  "require": {
+    "jhuta/php-mvc-core": "^0.0.1",
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
